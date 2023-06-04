@@ -74,3 +74,35 @@ nav div:hover{
 .profile-img img{
   border-radius: 400px;
 }
+
+.grid-container{
+    margin-top: 50px;
+    justify-content: center;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 30% 30%;
+}
+
+.skills{
+    margin-right: 10px;
+    border: 0.5px solid gold;
+    border-radius: 5px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Contact{
+    margin-left: 10px;
+    border: 0.5px solid gold;
+    border-radius: 5px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bi:hover{
+    color: gold;
+    cursor: pointer;
+    transition: 0.3s;
+}
