@@ -11,6 +11,18 @@
 body{
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
+    margin-bottom: 100px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(201, 171, 0);
+}
+
+::-webkit-scrollbar-track{
+    background: black;
 }
 
 nav{
@@ -77,32 +89,24 @@ nav div:hover{
 
 .grid-container{
     margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     color: aliceblue;
     display: grid;
     grid-template-columns: 30% 30%;
 }
 
-.skills{
-    margin-right: 10px;
-    border: 0.5px solid gold;
-    border-radius: 5px;
-    height: 300px;
-    text-align: center;
-    padding: 20px;
-}
-
-.Contact{
-    margin-left: 10px;
-    border: 0.5px solid gold;
-    border-radius: 5px;
-    height: 300px;
-    text-align: center;
-    padding: 20px;
-}
-
 .bi:hover{
     color: gold;
     cursor: pointer;
     transition: 0.3s;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+.Contact li{
+    list-style-type: none;
 }
