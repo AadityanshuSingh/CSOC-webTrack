@@ -25,10 +25,12 @@ body{
     background: black;
 }
 
+
+
 nav{
     max-width: 100%;
     display: flex;
-    background-color: rgb(0, 9, 29);
+    background-color: black;
     box-shadow: 2px 1px 15px;
     justify-content: center;
     box-shadow: 0px 2px 15px rgb(1, 118, 156);
@@ -38,7 +40,7 @@ nav div{
     margin: 10px 10px;
     max-width: 100%;
     justify-content:space-between;
-    background-color: rgb(0, 9, 29);
+    background-color: black;
     position: relative;
     color: gold;
 }
@@ -87,14 +89,11 @@ nav div:hover{
   border-radius: 400px;
 }
 
-.grid-container{
+.container2{
     margin-top: 50px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
     justify-content: center;
     color: aliceblue;
-    display: grid;
-    grid-template-columns: 30% 30%;
+    display: flex;
 }
 
 .bi:hover{
@@ -109,4 +108,45 @@ h3{
 
 .Contact li{
     list-style-type: none;
+}
+
+.skills , .Contact {
+    background-color: black;
+    margin: 50px 20px 10px 20px;
+    padding: 20px;
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+
+.skills h3, .skills li, .Contact h3, .Contact li{
+    background-color: black;
+    padding-left: 30px;
+}
+
+.skills:hover{
+    border: 0.5px solid gold;
+    transition: 0.2s;
+    transform: scale(1.08, 1.08);
+    cursor: pointer;
+}
+
+.Contact:hover{
+    border: 0.5px solid gold;
+    transition: 0.2s;
+    transform: scale(1.08, 1.08);
+    cursor: pointer;
+}
+
+.Contact li{
+    margin-top: 15px;
+}
+
+nav img{
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    margin-right: 160px;
+    padding-right: 30px;
 }
