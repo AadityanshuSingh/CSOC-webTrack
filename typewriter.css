@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300&family=Poppins:wght@600&display=swap');
+
+h1{
+    color: rgb(214, 0, 89);
+    font-family: 'Bangers', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+}
